@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/20393f9140.js" crossorigin="anonymous"></script>
+
+    <title>Registro</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" target="_self">Home</a>
+        <a href="acerca_de.html" target="_self">Acerca de mi</a>
+        <a href="contacto.html" target="_self">Contacto</a>
+        <a href="registro.html" target="_self">Registrate</a>
+        <a href="sucursales.html" target="_self">Sucursales</a>
+    </nav>  
+    <header>
+            <h1 style="color:rgb(94, 11, 177);">La cocina de Emi</h1>
+    </header> 
+    
+    <menu>
+        <h2>Registrate</h2>
+        <form action="show_data.html" target="_blank">
+            <label for="firstname">Nombre: </label><input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aqui..." >   <br><br>
+            <label for="lastname">Apellido:</label><input size="30"  type="text" name="lastname" placeholder="Ingrese su apellido aqui...">  <br><br>
+            <label for="street">Direccion:</label><input type="text" name="address" placeholder="Ingrese su dirección aqui..." >  <br><br>
+            <label for="city">Ciudad: </label><input type="text" name="city" value="C.A.B.A." >  <br><br>
+            <label for="zipcode">Código Postal:</label><input type="text" name="zipcode" placeholder="Ingrese su codigo postal aqui..." > <br> <br>
+            <label for="BirthDate">Fecha Nac.(mm/dd/yyyy): </label>  <input type="date" name="birthdate" > <br><br>
+            <label for="mail">Mail: </label><input type="email" name="mail"  >  <br><br>
+            <p>Género:
+                <input type="radio" name="gender" value="hombre" checked>Hombre
+                <input type="radio" name="gender" value="Mujer">Mujer
+                <input type="radio" name="gender" value="Otro"> Otro 
+            </p>
+            <p>Estudios :
+            <input type="checkbox" name="estudio" value="primaria">Primaria
+            <input type="checkbox" name="estudio" value="secundaria" value="primaria">Secundaria
+            <input type="checkbox" name="estudio" value="terciario" value="terciario">Terciario
+            <input type="checkbox" name="estudio" value="universitario">Universitario
+            <input type="checkbox" name="estudio" value="otro">Otro
+            </p>
+            <br> 
+        <input type="submit" value="Enviar">
+    </form> 
+      <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
+       
+    </menu>
+    <footer style="background-color: cornflowerblue;">
+        <br><br>
+        <a href="https://www.facebook.com/emi.condori.3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://outlook.live.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://web.telegram.org/"><i class="fab fa-telegram-plane"></i></a>
+        <br>
+        <i>Derechos reservados Luni2021 </i>
+        <br><br>
+       
+    </footer>
+</body>
+</html>
